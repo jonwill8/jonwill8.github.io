@@ -5,5 +5,18 @@ search: false
 
 @charset "utf-8";
 
-@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
-@import "minimal-mistakes"; // main partials
+//@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+//@import "minimal-mistakes"; // main partials
+
+
+
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
+@import "minimal-mistakes";
+
+/* Bigger author profile image */
+.author__avatar { width: 180px; }                  /* was ~120px */
+.author__avatar img { width: 100%; height: auto; } /* keep aspect */
+@media (min-width: 64em) {
+  .author__avatar { width: 200px; }                /* even bigger on desktop */
+}
