@@ -38,3 +38,10 @@ search: false
     margin: 0 auto;
   }
 }
+
+
+/* Make site title in the header bigger & bold */
+.site-title {
+    font-size: 1.5rem;    /* adjust up/down as needed */
+    font-weight: 700;     /* 700 = bold */
+  }
