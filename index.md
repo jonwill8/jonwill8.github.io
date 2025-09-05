@@ -9,10 +9,10 @@ classes: wide           # a bit more room like the example
 
 {% include figure image_path="/assets/images/headshot.jpg" alt="Jonathan Williams" align="right" width="220" %}
 
-I’m a CS Ph.D. student at Princeton, advised by Olga Russatosky.  
-My research focuses on self-supervised learning, multimodal methods, and distribution robustness.
 
-I’m developing methods where **text or structure serves as a substrate for storing and updating knowledge**… *(write your personal blurb here; use **bold** for emphasis like the screenshot).*
+I’m a CS Ph.D. student at Princeton, advised by Olga Russatosky. My research focuses on self-supervised learning, multimodal methods, and distribution robustness.
+
+
 
 
 ## Selected Papers
