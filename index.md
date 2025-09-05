@@ -8,10 +8,17 @@ classes: wide           # a bit more room like the example
 ---
 
 
+<div class="about-grid">
+  <div class="about-text">
+
 I’m a CS Ph.D. student at Princeton, advised by Olga Russakovsky. My general research intrests lie in self-supervised learning, multimodal learning, time series foundation models, and distribution robustness.
 
+  </div>
 
-{% include figure image_path="/assets/images/headshot.jpg" alt="Jonathan Williams" align="right" width="220" %}
+  <div class="about-photo">
+    <img src="/assets/images/headshot.jpg" alt="Jonathan Williams">
+  </div>
+</div>
 
 
 

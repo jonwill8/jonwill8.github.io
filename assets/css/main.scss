@@ -5,18 +5,36 @@ search: false
 
 @charset "utf-8";
 
-//@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
-//@import "minimal-mistakes"; // main partials
-
-
-
-
+/* Load Minimal Mistakes theme */
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
 @import "minimal-mistakes";
 
-/* Bigger author profile image */
-.author__avatar { width: 180px; }                  /* was ~120px */
-.author__avatar img { width: 100%; height: auto; } /* keep aspect */
-@media (min-width: 64em) {
-  .author__avatar { width: 200px; }                /* even bigger on desktop */
+/* --- Custom overrides --- */
+
+/* About page: text left, portrait right */
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr 220px;   /* text | photo */
+  gap: 2rem;
+  align-items: start;
+}
+
+.about-photo img {
+  width: 220px;
+  border-radius: 12px;
+  display: block;
+}
+
+/* Mobile: stack image under text */
+@media (max-width: 900px) {
+  .about-grid {
+    grid-template-columns: 1fr;
+  }
+  .about-photo {
+    margin-top: 1.25rem;
+  }
+  .about-photo img {
+    width: 160px;
+    margin: 0 auto;
+  }
 }
