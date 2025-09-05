@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Jonathan Williams"
+title: ""
 permalink: /
 toc: false
 author_profile: false   # no left sidebar
@@ -8,7 +8,7 @@ classes: wide           # a bit more room like the example
 ---
 
 
-I’m a CS Ph.D. student at Princeton, advised by olga Russakovsky. My general research intrests lie in the areas of self-supervised learning, multimodal learning, time series foundation models, and distribution robustness.
+I’m a CS Ph.D. student at Princeton, advised by Olga Russakovsky. My general research intrests lie in self-supervised learning, multimodal learning, time series foundation models, and distribution robustness.
 
 
 {% include figure image_path="/assets/images/headshot.jpg" alt="Jonathan Williams" align="right" width="220" %}
