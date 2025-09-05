@@ -27,4 +27,4 @@ I’m a CS Ph.D. student at Princeton, advised by Olga Russakovsky. My general r
 1. **Test-Time Alignment via Hypothesis Reweighting**  
    *ICML 2025 Workshop PUT*  
    Yoonho Lee, **Jonathan Williams**, Henrik Marklund, Archit Sharma, Eric Mitchell, Anikait Singh, Chelsea Finn
-   [Paper](#) · [Code](#)
+   [Paper](https://arxiv.org/abs/2412.08812)
