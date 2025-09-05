@@ -325,3 +325,14 @@ defaults:
       comments: # true
       share: true
       related: true
+
+
+
+# Navigation
+navigation:
+  - title: "About"
+    url: /
+  - title: "Papers"
+    url: /papers/
+  - title: "CV"
+    url: /cv/
