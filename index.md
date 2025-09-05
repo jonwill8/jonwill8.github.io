@@ -1,6 +1,6 @@
 ---
 layout: single
-title: #""
+title: "Jonathan Williams"
 permalink: /
 toc: false
 author_profile: false   # no left sidebar
