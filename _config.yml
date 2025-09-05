@@ -113,8 +113,8 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
-  avatar           : "/Users/jonathanwilliams/Desktop/Desktop/Princeton_Stuff/personal_website/jonwill8.github.io/assets/images/headshot.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  name             : "Jonathan Williams"
+  avatar           : "/assets/images/headshot.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "CS PhD Student @ Princeton University"
   location         : "Princeton, NJ"
   email            : "j4199@princeton.edu"
@@ -300,7 +300,7 @@ defaults:
       path: ""
       type: posts
     values:
-      layout: single
+      layout: home
       author_profile: true
       read_time: true
       comments: # true
