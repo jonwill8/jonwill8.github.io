@@ -11,7 +11,7 @@ classes: wide           # a bit more room like the example
 <div class="about-grid">
   <div class="about-text">
 
-I am a CS Ph.D. student at Princeton, advised by Olga Russakovsky. I am currnetly interested in time series foundation models and self-supervised/multimodal learning.
+I am a CS Ph.D. student at Princeton, advised by Olga Russakovsky. I am interested in time series foundation models and self-supervised/multimodal learning.
 
   </div>
 
