@@ -11,21 +11,51 @@ search: false
 
 /* --- Custom overrides --- */
 
-/* About page: text left, portrait right */
+/* About page: text left, portrait + meta right */
 .about-grid {
   display: grid;
-  grid-template-columns: 1fr 220px;   /* text | photo */
+  grid-template-columns: minmax(0, 1fr) 300px; /* text | wider photo column */
   gap: 2rem;
   align-items: start;
 }
 
-.about-photo img {
-  width: 220px;
-  border-radius: 12px;
-  display: block;
+.about-photo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-/* Mobile: stack image under text */
+/* Bigger portrait */
+.about-photo img,
+.about-photo .profile-pic {
+  width: 300px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 14px;
+  display: block;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+}
+
+/* Meta text under portrait */
+.about-photo .about-meta {
+  margin-top: 12px;
+  text-align: center;
+  font-size: 0.95rem;
+  line-height: 1.45;
+  color: inherit;
+}
+
+.about-photo .about-meta p {
+  margin: 0.15rem 0;
+}
+
+.about-photo .about-meta a {
+  font-weight: 600;
+  text-decoration: none;
+  word-break: break-word; /* keep long emails from overflowing */
+}
+
+/* Mobile: stack image under text and reduce width a bit */
 @media (max-width: 900px) {
   .about-grid {
     grid-template-columns: 1fr;
@@ -33,25 +63,19 @@ search: false
   .about-photo {
     margin-top: 1.25rem;
   }
-  .about-photo img {
-    width: 160px;
-    margin: 0 auto;
+  .about-photo img,
+  .about-photo .profile-pic {
+    width: 220px;
   }
 }
 
-
-/* Make site title in the header bigger & bold */
+/* Header tweaks */
 .site-title {
-    font-size: 1.75rem;    /* adjust up/down as needed */
-    font-weight: 800;     /* 700 = bold */
-  }
-
-
-.site-title {
-    color: #000000 !important;
+  font-size: 1.75rem;
+  font-weight: 800;
+  color: #000000 !important;
 }
-
 
 .site-nav .page-link {
-    color: #000000 !important;
+  color: #000000 !important;
 }
