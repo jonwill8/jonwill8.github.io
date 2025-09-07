@@ -14,7 +14,7 @@ search: false
 /* About page: text left, portrait + meta right */
 .about-grid {
   display: grid;
-  grid-template-columns: 1fr 340px; /* text | wider photo column */
+  grid-template-columns: 1.5fr 340px; /* text | wider photo column */
   gap: 2.5rem;
   align-items: start;
 }
@@ -100,4 +100,12 @@ h2:has(+ ul) {
 /* Hide the footer completely */
 .page__footer {
   display: none !important;
+}
+
+
+/* Shift homepage content further left */
+body.home .page__content {
+  max-width: 1200px;   /* allow a wider content column */
+  margin-left: 0;      /* remove centering */
+  padding-left: 0;     /* strip extra padding */
 }
