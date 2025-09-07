@@ -16,14 +16,14 @@ I am a CS Ph.D. student at Princeton, advised by [**Olga Russakovsky**](https://
 
   <div class="about-photo">
     <img src="{{ '/assets/images/headshot.jpg' | relative_url }}" alt="Jonathan Williams" class="profile-pic">
-   <div class="about-meta">
+    <div class="about-meta">
       <p><a href="mailto:jw4199@princeton.edu">jw4199@princeton.edu</a></p>
-      <p>Expected Spring 2030</p>
       <p>
         <a href="https://scholar.google.com/citations?user=nNsp3XMAAAAJ&hl=en" target="_blank">
           Google Scholar
-      </a>
-    </p>
+        </a>
+      </p>
+    </div>
   </div>
 </div>
 
