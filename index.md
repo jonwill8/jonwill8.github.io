@@ -19,7 +19,6 @@ I am a CS Ph.D. student at Princeton, advised by [**Olga Russakovsky**](https://
     <div class="about-meta">
       <p><a href="mailto:jw4199@princeton.edu">jw4199@princeton.edu</a></p>
       <p>Expected Spring 2030</p>
-      <p>Princeton, NJ</p>
     </div>
   </div>
 </div>

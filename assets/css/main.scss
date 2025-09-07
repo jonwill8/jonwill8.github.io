@@ -14,8 +14,8 @@ search: false
 /* About page: text left, portrait + meta right */
 .about-grid {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) 320px; /* text | wider photo column */
-  gap: 2.5rem;  /* extra breathing room */
+  grid-template-columns: minmax(0, 1fr) 340px; /* text | wider photo column */
+  gap: 2.5rem;
   align-items: start;
 }
 
@@ -28,12 +28,12 @@ search: false
 /* Larger portrait with spacing */
 .about-photo img,
 .about-photo .profile-pic {
-  width: 280px;
+  width: 340px;  /* bumped up */
   max-width: 100%;
   height: auto;
   border-radius: 14px;
   display: block;
-  margin-bottom: 1rem; /* spacing between image + metadata */
+  margin-bottom: 0.75rem; /* smaller margin so meta sits closer */
   box-shadow: 0 6px 20px rgba(0,0,0,0.08);
 }
 
@@ -41,11 +41,11 @@ search: false
 .about-photo .about-meta {
   text-align: center;
   font-size: 0.95rem;
-  line-height: 1.45;
+  line-height: 1.35;  /* reduced line height */
   color: inherit;
 }
 .about-photo .about-meta p {
-  margin: 0.25rem 0;
+  margin: 0.15rem 0;  /* tightened spacing */
 }
 .about-photo .about-meta a {
   font-weight: 600;
@@ -55,7 +55,7 @@ search: false
 
 /* Style Selected Papers section */
 #selected-papers,
-h2:has(+ ol), /* fallback: target heading before list */
+h2:has(+ ol),
 h2:has(+ ul) {
   margin-top: 2.5rem;
   font-size: 1.4rem;
@@ -81,7 +81,7 @@ h2:has(+ ul) {
   }
   .about-photo img,
   .about-photo .profile-pic {
-    width: 220px;
+    width: 240px; /* slightly bigger on mobile too */
   }
 }
 
