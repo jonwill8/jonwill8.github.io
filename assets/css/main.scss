@@ -101,18 +101,3 @@ h2:has(+ ul) {
 .page__footer {
   display: none !important;
 }
-
-/* Only affect the homepage block we wrapped */
-.about-leftshift {
-  /* nudge left to reduce the theme's left padding */
-  margin-left: -1.25rem;
-  /* keep right padding so it doesn't hug the edge */
-  margin-right: 0;
-}
-
-/* On wider screens, nudge a bit more */
-@media (min-width: 1024px) {
-  .about-leftshift {
-    margin-left: -2rem;
-  }
-}

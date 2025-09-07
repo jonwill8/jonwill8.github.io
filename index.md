@@ -3,11 +3,9 @@ layout: single
 title: ""
 permalink: /
 toc: false
-author_profile: false
-classes: wide
+author_profile: false   # no left sidebar
+classes: wide           # a bit more room like the example
 ---
-
-<div class="about-leftshift">   <!-- add this wrapper -->
 
 <div class="about-grid">
   <div class="about-text" markdown="1">
@@ -20,7 +18,11 @@ I am a CS Ph.D. student at Princeton, advised by [**Olga Russakovsky**](https://
     <img src="{{ '/assets/images/headshot.jpg' | relative_url }}" alt="Jonathan Williams" class="profile-pic">
     <div class="about-meta">
       <p><a href="mailto:jw4199@princeton.edu">jw4199@princeton.edu</a></p>
-      <p><a href="https://scholar.google.com/citations?user=nNsp3XMAAAAJ&hl=en" target="_blank">Google Scholar</a></p>
+      <p>
+        <a href="https://scholar.google.com/citations?user=nNsp3XMAAAAJ&hl=en" target="_blank">
+          Google Scholar
+        </a>
+      </p>
     </div>
   </div>
 </div>
@@ -33,5 +35,3 @@ I am a CS Ph.D. student at Princeton, advised by [**Olga Russakovsky**](https://
    *ICML 2025 Workshop PUT*  
    Yoonho Lee, **Jonathan Williams**, Henrik Marklund, Archit Sharma, Eric Mitchell, Anikait Singh, Chelsea Finn  
    [Paper](https://arxiv.org/abs/2412.08812)
-
-</div>  <!-- end about-leftshift -->
