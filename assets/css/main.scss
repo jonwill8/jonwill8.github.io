@@ -14,7 +14,7 @@ search: false
 /* About page: text left, portrait + meta right */
 .about-grid {
   display: grid;
-  grid-template-columns: 1.75fr 340px; /* text | wider photo column */
+  grid-template-columns: 1fr 340px; /* text | wider photo column */
   gap: 2.5rem;
   align-items: start;
 }
@@ -100,4 +100,17 @@ h2:has(+ ul) {
 /* Hide the footer completely */
 .page__footer {
   display: none !important;
+}
+
+
+/* Shift text left only on the homepage (about page) */
+body.home .page__content {
+  padding-left: 0.5rem;   /* reduce left padding */
+  padding-right: 1.5rem;  /* keep some right padding for balance */
+  max-width: 1100px;      /* optional: allow a bit more width */
+}
+
+/* Keep the grid aligned with the new shift */
+body.home .about-grid {
+  margin-left: -0.5rem;   /* nudge text side further left */
 }
