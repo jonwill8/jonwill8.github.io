@@ -10,7 +10,7 @@ classes: wide           # a bit more room like the example
 <div class="about-grid">
   <div class="about-text" markdown="1">
 
-I am a CS Ph.D. student at Princeton, advised by **Olga Russakovsky**. I am generously supported by the [**GEM**](https://www.gemfellowship.org/gem-fellowship-program/) and [**President's**](https://gradschool.princeton.edu/financial-support/fellowships/princeton-fellowships/presidents-fellowship) Fellowships. I previously studied Math at Stanford where I was fortunate to have been advised by [**Yoonho Lee**](https://yoonholee.com/), [**Pranav Rajpurkar**](https://pranavrajpurkar.com/), and [**Christine Taylor**](https://mathematics.stanford.edu/people/christine-taylor). I am interested in time series foundation models, self-supervised learning, and multimodal learning.
+I am a CS Ph.D. student at Princeton, advised by [**Olga Russakovsky**](https://www.cs.princeton.edu/~olgarus/). I am generously supported by the [**GEM**](https://www.gemfellowship.org/gem-fellowship-program/) Fellowship and [**President's**](https://gradschool.princeton.edu/financial-support/fellowships/princeton-fellowships/presidents-fellowship) Fellowship. I previously studied Math at Stanford where I was fortunate to have been advised by [**Yoonho Lee**](https://yoonholee.com/), [**Pranav Rajpurkar**](https://pranavrajpurkar.com/), and [**Christine Taylor**](https://mathematics.stanford.edu/people/christine-taylor). I am interested in time series foundation models, self-supervised learning, and multimodal learning.
 
   </div>
 
