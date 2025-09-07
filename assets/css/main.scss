@@ -95,3 +95,9 @@ h2:has(+ ul) {
 .site-nav .page-link {
   color: #000000 !important;
 }
+
+
+/* Hide the footer completely */
+.page__footer {
+  display: none !important;
+}
