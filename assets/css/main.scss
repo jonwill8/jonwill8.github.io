@@ -14,7 +14,7 @@ search: false
 /* About page: text left, portrait + meta right */
 .about-grid {
   display: grid;
-  grid-template-columns: 1.5fr 340px; /* text | wider photo column */
+  grid-template-columns: 3fr 340px; /* text | wider photo column */
   gap: 2.5rem;
   align-items: start;
 }
