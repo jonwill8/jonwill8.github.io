@@ -102,14 +102,17 @@ h2:has(+ ul) {
   display: none !important;
 }
 
-/* Shift About page text further left */
-body.home .page__content {
-  max-width: 1200px;   /* allow wider text area */
-  padding-left: 0;     /* remove default left padding */
-  padding-right: 2rem; /* keep some space on right */
+/* Only affect the homepage block we wrapped */
+.about-leftshift {
+  /* nudge left to reduce the theme's left padding */
+  margin-left: -1.25rem;
+  /* keep right padding so it doesn't hug the edge */
+  margin-right: 0;
 }
 
-/* Optional: adjust About grid specifically */
-body.home .about-grid {
-  margin-left: 0;      /* align grid flush with left */
+/* On wider screens, nudge a bit more */
+@media (min-width: 1024px) {
+  .about-leftshift {
+    margin-left: -2rem;
+  }
 }
