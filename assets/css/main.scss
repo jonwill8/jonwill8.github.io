@@ -14,8 +14,8 @@ search: false
 /* About page: text left, portrait + meta right */
 .about-grid {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) 300px; /* text | wider photo column */
-  gap: 2rem;
+  grid-template-columns: minmax(0, 1fr) 320px; /* text | wider photo column */
+  gap: 2.5rem;  /* extra breathing room */
   align-items: start;
 }
 
@@ -25,43 +25,59 @@ search: false
   align-items: center;
 }
 
-/* Bigger portrait */
+/* Larger portrait with spacing */
 .about-photo img,
 .about-photo .profile-pic {
-  width: 300px;
+  width: 280px;
   max-width: 100%;
   height: auto;
   border-radius: 14px;
   display: block;
+  margin-bottom: 1rem; /* spacing between image + metadata */
   box-shadow: 0 6px 20px rgba(0,0,0,0.08);
 }
 
 /* Meta text under portrait */
 .about-photo .about-meta {
-  margin-top: 12px;
   text-align: center;
   font-size: 0.95rem;
   line-height: 1.45;
   color: inherit;
 }
-
 .about-photo .about-meta p {
-  margin: 0.15rem 0;
+  margin: 0.25rem 0;
 }
-
 .about-photo .about-meta a {
   font-weight: 600;
   text-decoration: none;
-  word-break: break-word; /* keep long emails from overflowing */
+  word-break: break-word;
 }
 
-/* Mobile: stack image under text and reduce width a bit */
+/* Style Selected Papers section */
+#selected-papers,
+h2:has(+ ol), /* fallback: target heading before list */
+h2:has(+ ul) {
+  margin-top: 2.5rem;
+  font-size: 1.4rem;
+  font-weight: 700;
+  border-bottom: 2px solid #e5e5e5;
+  padding-bottom: 0.5rem;
+}
+
+#selected-papers + ol,
+#selected-papers + ul {
+  margin-top: 1rem;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+/* Mobile: stack image under text and reduce width */
 @media (max-width: 900px) {
   .about-grid {
     grid-template-columns: 1fr;
   }
   .about-photo {
-    margin-top: 1.25rem;
+    margin-top: 1.5rem;
   }
   .about-photo img,
   .about-photo .profile-pic {
