@@ -106,6 +106,6 @@ h2:has(+ ul) {
 /* Shift homepage content further left */
 body.home .page__content {
   max-width: 1200px;   /* allow a wider content column */
-  margin-left: 0;      /* remove centering */
+  margin-left: -3rem;      /* remove centering */
   padding-left: 0;     /* strip extra padding */
 }
