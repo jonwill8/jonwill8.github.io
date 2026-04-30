@@ -32,7 +32,7 @@ I am a CS Ph.D. student at Princeton, advised by [**Karthik Narasimhan**](https:
 ## Selected Papers
 
 1. **Prioritize the Process, Not Just the Outcome: Rewarding Latent Thought Trajectories Improves Reasoning in Looped Language Models**  
-   *Arxiv*  
+   *ICML 2026*  
    **Jonathan Williams**, Esin Tureci  
    [Paper](https://arxiv.org/abs/2602.10520)
 
