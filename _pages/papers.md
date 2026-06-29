@@ -7,7 +7,7 @@ toc: false
 
 ### 2026
 - **Prioritize the Process, Not Just the Outcome: Rewarding Latent Thought Trajectories Improves Reasoning in Looped Language Models**  
-   *Under Review at ICML 2026 (Mean review score = 4.5/6)*  
+   *ICML 2026*  
    **Jonathan Williams**, Esin Tureci  
    [Paper](https://arxiv.org/abs/2602.10520)
 
