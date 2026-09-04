@@ -31,12 +31,16 @@ I am a CS Ph.D. student at Princeton, advised by [**Karthik Narasimhan**](https:
 
 ## Selected Papers
 
-1. **Prioritize the Process, Not Just the Outcome: Rewarding Latent Thought Trajectories Improves Reasoning in Looped Language Models**  
+1. **Adapter Thickets: Splitting an RLVR Budget Beats Concentrating It**  
+   *Under Review @ ICLR 2027, NeurIPS 2026 Workshop Pre-to-Post*  
+   **Jonathan Williams**, Esin Tureci, Karthik Narasimhan 
+
+2. **Prioritize the Process, Not Just the Outcome: Rewarding Latent Thought Trajectories Improves Reasoning in Looped Language Models**  
    *ICML 2026*  
    **Jonathan Williams**, Esin Tureci  
    [Paper](https://arxiv.org/abs/2602.10520)
 
-2. **Test-Time Alignment via Hypothesis Reweighting**  
+3. **Test-Time Alignment via Hypothesis Reweighting**  
    *TMLR, ICML 2025 Workshop PUT*  
    Yoonho Lee, **Jonathan Williams**, Henrik Marklund, Archit Sharma, Eric Mitchell, Anikait Singh, Chelsea Finn  
    [Paper](https://arxiv.org/abs/2412.08812)
