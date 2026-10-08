@@ -10,6 +10,7 @@ toc: false
 - **Adapter Thickets: Splitting an RLVR Budget Beats Concentrating It**  
    *NeurIPS 2026 Workshop Pre-to-Post*  
    **Jonathan Williams**, Esin Tureci, Karthik Narasimhan  
+   [Paper](https://arxiv.org/abs/2610.00991) 
 
 
 - **Prioritize the Process, Not Just the Outcome: Rewarding Latent Thought Trajectories Improves Reasoning in Looped Language Models**  
